@@ -19,6 +19,11 @@ export default function Navbar() {
         <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 text-white backdrop-blur-xl border-b border-border/50">
             <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
                 <a href="#accueil" className="flex items-center gap-3">
+                    <img
+                        src="/images/logo.jpg"
+                        alt="Underground Bouge"
+                        className="h-10 w-10 rounded-sm object-cover"
+                    />
                     <span className="font-bold text-lg tracking-tight text-white">
                         UNDERGROUND <span className="text-red-500">BOUGE</span>
                     </span>

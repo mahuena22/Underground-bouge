@@ -1,6 +1,8 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Activité from './components/Activité'
+import OpenShow from './components/Openshow'
 import Impact from './components/Impact'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -10,6 +12,8 @@ const Index = () => {
             <Navbar />
             <Hero />
             <About />
+            <Activité />
+            <OpenShow />
             <Impact />
             <Contact />
             <Footer />
