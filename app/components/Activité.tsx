@@ -6,25 +6,25 @@ import { Radio, MessageSquare, Video, Calendar } from 'lucide-react'
 const channels = [
     {
         icon: MessageSquare,
-        title: 'Communication Digitale',
-        desc: "Réseaux sociaux Facebook & WhatsApp avec un réseau de partage et d'identification très actif pour le relai sur la toile.",
+        title: 'Communication Digitale (Réseaux sociaux)',
+        desc: "Notre initiative s’étant donné le challenge de rallier tous les passionnés via le net, notre mix communicationnel est plus basé sur les différents réseaux sociaux que sont Facebook et WhatsApp. Un réseau de partage et d’identification très actif qui a été initié et mis en place pour assurer le relai sur la toile. ",
     },
     {
         icon: Radio,
         title: 'Communication Radio',
-        desc: 'Diffusion sur Hip-Hop Horizon (Radio Carrefour), Rap Sentence (Radio Bénin Culture), Top Star Urban Show (Gerddès FM).',
+        desc: 'En collaboration avec plusieurs radios du Bénin, les chansons des artistes promus sont diffusées durant toute la période. Entre autres partenaires media, nous pouvons citer les émissions telles que  Hip-Hop Horizon de la radio Carrefour dans le centre du pays, Rap Sentence de Radio Bénin Culture dans l’Ouémé et Top Star Urban Show de la radio Gerddès Fm toujours dans l’Ouémé. De nombreux autres radios et émissions sont actuellement en pourparlers avec les gestionnaires du projet afin de se hisser au rang des partenaires. Hip-Hop Horizon de la radio Carrefour dans le centre du pays, Rap Sentence de Radio Bénin Culture dans l’Ouémé et Top Star Urban Show de la radio Gerddès Fm toujours dans l’Ouémé. De nombreux autres radios et émissions sont actuellement en pourparlers avec les gestionnaires du projet afin de se hisser au rang des partenaires.',
     },
     {
         icon: Video,
         title: 'Communication Visuelle',
-        desc: 'Chaîne YouTube dédiée aux spots publicitaires, visuels des spectacles, et freestyles party.',
+        desc: 'Une chaîne YouTube est dédiée spécialement pour le partage des différents spots publicitaires du  projet, le visuel de nos différents spectacles, des freestyles party…',
     },
 ]
 
 const rubriques = [
-    { day: 'Jeudi', action: "Annonce de l'artiste", icon: '📢' },
-    { day: 'Dimanche', action: 'Biographie complète', icon: '📖' },
-    { day: 'Mardi', action: 'Tchat en direct', icon: '💬' },
+    { day: 'Jeudi', action: "L’annonce de l’identité de l’artiste du numéro.", icon: '📢' },
+    { day: 'Dimanche', action: 'Tout savoir sur l’artiste (biographie de l’artiste).', icon: '📖' },
+    { day: 'Mardi', action: "Tchat avec l'artiste", icon: '💬' },
 ]
 
 export default function Activities() {
@@ -43,8 +43,7 @@ export default function Activities() {
                         <span className="text-blue-500">communication</span>
                     </h2>
                     <p className="text-muted-foreground max-w-2xl mb-16 text-lg">
-                        Un artiste est promu durant 3 jours par quinzaine, avec
-                        une stratégie multi-canal complète.
+                      Le plan de communication de l’UNDERGROUND BOUGE se subdivise en plusieurs catégories à savoir:
                     </p>
                 </motion.div>
 
@@ -87,7 +86,7 @@ export default function Activities() {
                     <div className="flex items-center gap-3 mb-8">
                         <Calendar className="text-blue-500" size={24} />
                         <h3 className="text-2xl font-bold text-foreground">
-                            Programme hebdomadaire
+                            Les différentes rubriques
                         </h3>
                     </div>
 

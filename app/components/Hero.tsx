@@ -22,7 +22,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-black/70" />
 
             {/* Grid overlay */}
-            <div className="absolute inset-0 z-[1] grid-bg opacity-30" />
+            <div className="absolute inset-0 z-1 grid-bg opacity-30" />
 
             <div className="relative z-10 max-w-7xl mx-auto w-full px-6 md:px-12 pt-32 pb-20">
                 <motion.div

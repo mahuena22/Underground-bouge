@@ -5,17 +5,22 @@ import { useRef } from 'react'
 import { Check, AlertTriangle } from 'lucide-react'
 
 const avantages = [
-    'Promouvoir et donner de la visibilité aux artistes',
-    'Faciliter la relation Fans-Artistes à travers des échanges',
+    'Promouvoir les artistes',
+    'Donner de la visibilité aux artistes',
+    'Faciliter la relation Fans-Artistes à travers des échanges écrits',
     'Offrir des spectacles gratuits aux fans',
     "Offrir des scènes d'expression aux artistes",
     "Rehausser l'audience des radios partenaires",
+    "Promouvoir divers produits des partenaires",
     'Impacter la fréquentation des lieux hôtes',
+    "Promouvoir des marques de brasseries par le ‘PULL STRATEGY’;",
+    "Impacter positivement le taux de fréquentation des lieux qui hébergent nos spectacles",
+    "Etc. ..."
 ]
 
 const challenges = [
-    'Recherche de partenaires commerciaux fiables',
-    'Coordination des acteurs dans le conducteur du programme',
+    'Manque de partenaires commerciaux fiables',
+    'Le retard des acteurs (Artistes, followers) dans l’exécution du conducteur du programme chaque quinzaine',
 ]
 
 export default function Impact() {
@@ -103,9 +108,7 @@ export default function Impact() {
                             ))}
                         </div>
                         <p className="text-muted-foreground text-sm leading-relaxed border-t border-border pt-6">
-                            Nous mettons tout en œuvre pour nous associer à des
-                            marques et produits commerciaux fiables afin
-                            dinstaurer un vrai business dans le milieu du show.
+                            Néanmoins nous mettons tout en œuvre pour palier à ces différentes difficultés en nous associant à des marques et produits commerciaux fiables et surtout viables afin d’instaurer un vrai business dans le milieu du show.
                         </p>
                     </motion.div>
                 </div>
