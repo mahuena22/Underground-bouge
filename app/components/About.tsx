@@ -17,7 +17,7 @@ export default function About() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={inView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}>
-                    <h2 className="text-3xl relative md:text-5xl top-10 mb-10 font-extrabold tracking-[-0.03em] text-foreground ">
+                    <h2 className="text-3xl relative md:text-5xl top-10 mb-10 font-extrabold tracking-[-0.03em] text-gray-900 ">
                         Qui sommes-nous
                         <span className="text-accent text-[#FF3B3F] "> ?</span>
                     </h2>
@@ -77,7 +77,7 @@ export default function About() {
                                     <div className="font-mono text-xs text-[#FF3B3F] text-accent uppercase tracking-wider">
                                         {member.role}
                                     </div>
-                                    <div className="text-sm text-foreground font-medium mt-1">
+                                    <div className="text-sm text-gray-900 font-medium mt-1">
                                         {member.name}
                                     </div>
                                 </div>

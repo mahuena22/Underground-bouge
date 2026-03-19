@@ -30,7 +30,7 @@ export default function OpenShow() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={inView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}>
-                    <h2 className="text-3xl md:text-5xl font-extrabold tracking-[-0.03em] text-foreground mb-6">
+                    <h2 className="text-3xl md:text-5xl font-extrabold tracking-[-0.03em] text-gray-900 mb-6">
                         Open <span className="text-blue-500">Show</span>
                     </h2>
                     <p className="text-gray-600 max-w-2xl mb-16 text-lg">
@@ -79,7 +79,7 @@ export default function OpenShow() {
                                 className="mx-auto text-blue-500 mb-3"
                                 size={28}
                             />
-                            <div className="text-sm font-medium text-foreground">
+                            <div className="text-sm font-medium text-gray-900">
                                 {f.text}
                             </div>
                         </motion.div>
