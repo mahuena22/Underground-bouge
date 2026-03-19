@@ -42,7 +42,7 @@ export default function About() {
                             nationale béninoise.
                         </p>
                         <p className="text-muted-foreground leading-relaxed mb-6">
-                            Parti dune idée de Parti d&apos;une idée de{' '}
+                            Parti d&apos;une idée de{' '}
                             <span className=" text-[#4DA8FF] font-semibold">
                                 Kévin Prince HOUNDALO
                             </span>

@@ -7,17 +7,17 @@ const channels = [
     {
         icon: MessageSquare,
         title: 'Communication Digitale',
-        desc: "Réseaux sociaux Facebook & WhatsApp avec un réseau de partage et d'identification très actif pour le relai sur la toile.",
+        desc: 'Via Facebook et WhatsApp, notre initiative crée un réseau actif de partage et d’identification, rassemblant les passionnés et assurant un relais efficace de tous les contenus sur la toile.',
     },
     {
         icon: Radio,
         title: 'Communication Radio',
-        desc: 'Diffusion sur Hip-Hop Horizon (Radio Carrefour), Rap Sentence (Radio Bénin Culture), Top Star Urban Show (Gerddès FM).',
+        desc: 'Les chansons des artistes sont diffusées sur plusieurs radios béninoises, dont Hip-Hop Horizon (Radio Carrefour), Rap Sentence (Radio Bénin Culture), Top Star Urban Show (Gerddès FM) avec d’autres partenaires en négociation.',
     },
     {
         icon: Video,
         title: 'Communication Visuelle',
-        desc: 'Chaîne YouTube dédiée aux spots publicitaires, visuels des spectacles, et freestyles party.',
+        desc: 'Une chaîne est dédiée au projet pour partager les spots publicitaires, les visuels des spectacles, les freestyles party et tout contenu audiovisuel valorisant les activités et artistes du projet.',
     },
 ]
 
