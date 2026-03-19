@@ -47,10 +47,7 @@ export default function Impact() {
                             ease: [0.16, 1, 0.3, 1],
                         }}
                         className="glass-card p-8 md:p-10">
-                        <h3 className="text-xl font-bold text-foreground mb-6 flex items-center gap-3">
-                            <div className="w-8 h-8 bg-primary/20 flex items-center justify-center rounded-sm">
-                                <Check className="text-blue-500" size={18} />
-                            </div>
+                        <h3 className="text-xl px-10 font-bold text-foreground mb-6 flex items-center gap-3">
                             Avantages
                         </h3>
                         <div className="space-y-4">
@@ -80,13 +77,7 @@ export default function Impact() {
                             ease: [0.16, 1, 0.3, 1],
                         }}
                         className="glass-card p-8 md:p-10">
-                        <h3 className="text-xl font-bold text-foreground mb-6 flex items-center gap-3">
-                            <div className="w-8 h-8 bg-accent/20 flex items-center justify-center rounded-sm">
-                                <AlertTriangle
-                                    className="text-red-500"
-                                    size={18}
-                                />
-                            </div>
+                        <h3 className="text-xl font-bold px-10 text-foreground mb-6 flex items-center gap-3">
                             Challenges actuels
                         </h3>
                         <div className="space-y-4 mb-8">

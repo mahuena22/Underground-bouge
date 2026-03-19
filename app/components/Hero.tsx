@@ -72,7 +72,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease }}>
-                    <span className="font-mono text-red-500 hover:text-red-300 tracking-widest text-sm uppercase mb-6 block animate-pulse-glow">
+                    <span className="font-mono text-red-500 sm:git hover:text-red-300 tracking-widest text-sm uppercase mb-6 block animate-pulse-glow">
                         ● Promotion musicale urbaine — Bénin
                     </span>
 

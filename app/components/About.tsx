@@ -11,7 +11,7 @@ export default function About() {
     return (
         <section
             id="apropos"
-            className="section-padding p-4 bg-white text-black ">
+            className="section-padding  p-4 bg-white text-black ">
             <div className="max-w-7xl mx-auto" ref={ref}>
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -19,7 +19,10 @@ export default function About() {
                     transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}>
                     <h2 className="text-3xl relative md:text-5xl top-10 mb-10 font-extrabold tracking-[-0.03em] text-gray-900 ">
                         Qui sommes-nous
-                        <span className="text-accent text-[#FF3B3F] "> ?</span>
+                        <span className="text-accent sm:mb-8 text-[#FF3B3F] ">
+                            {' '}
+                            ?
+                        </span>
                     </h2>
                 </motion.div>
 
@@ -32,7 +35,7 @@ export default function About() {
                             delay: 0.2,
                             ease: [0.16, 1, 0.3, 1],
                         }}>
-                        <p className="text-muted-foreground py-1 leading-relaxed mb-6">
+                        <p className="text-muted-foreground py-1 mt-4 leading-relaxed mb-6">
                             Créé le{' '}
                             <span className="text-primary text-[#4DA8FF] font-semibold">
                                 30 mai 2017
