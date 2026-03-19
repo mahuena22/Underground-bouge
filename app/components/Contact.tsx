@@ -17,7 +17,7 @@ export default function Contact() {
     return (
         <section
             id="contact"
-            className="section-padding bg-background bg-black text-white mt-40">
+            className="section- p-4 bg-background bg-black text-white mt-40">
             <div className="max-w-7xl mx-auto" ref={ref}>
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -84,7 +84,7 @@ export default function Contact() {
                                 href="https://www.facebook.com/undergroundbougelevrai"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center gap-2 text-blue-500 hover:text-red-500 transition-colors font-medium">
+                                className="inline-flex items-center rounded-full border bg-white px-2 py-4 gap-2 text-blue-500 hover:text-red-500 transition-colors font-medium">
                                 Suivez-nous sur Facebook →
                             </a>
                         </div>
@@ -136,7 +136,7 @@ export default function Contact() {
                         </div>
                         <button
                             type="submit"
-                            className="btn-action w-full flex items-center justify-center gap-2 bg-red-500 hover:bg-red-600 transition-colors py-3 text-sm">
+                            className="btn-action w-full flex items-center rounded-full justify-center gap-2 bg-red-500 hover:bg-red-600 transition-colors py-3 text-sm">
                             {submitted ? (
                                 'Message envoyé ✓'
                             ) : (

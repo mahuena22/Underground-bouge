@@ -9,7 +9,7 @@ const navLinks = [
     { label: 'Activités', href: '#activites' },
     { label: 'Open Show', href: '#openshow' },
     { label: 'Impact', href: '#impact' },
-    { label: 'Contact', href: '#contact' },
+    /*{ label: 'Contact', href: '#contact' },*/
 ]
 
 export default function Navbar() {
@@ -20,13 +20,13 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
                 <a href="#accueil" className="flex items-center gap-3">
                     <img
-                        src="/images/logo.jpg"
+                        src="/images/header1.png"
                         alt="Underground Bouge"
-                        className="h-10 w-10 rounded-sm object-cover"
+                        className="h-20 w-20 rounded-sm object-cover"
                     />
-                    <span className="font-bold text-lg tracking-tight text-white">
+                    {/*   <span className="font-bold text-lg tracking-tight text-white">
                         UNDERGROUND <span className="text-red-500">BOUGE</span>
-                    </span>
+                    </span> */}
                 </a>
 
                 {/* Desktop nav */}
@@ -43,8 +43,8 @@ export default function Navbar() {
 
                 <a
                     href="#contact"
-                    className="hidden md:block btn-action text-sm py-2 px-6 bg-red-500 hover:bg-red-600 transition-colors">
-                    Nous contacter
+                    className="hidden md:block btn-action text-sm py-2 px-6 bg-red-500 rounded-2xl hover:bg-red-600 transition-colors">
+                    Nous contacter →
                 </a>
 
                 {/* Mobile toggle */}

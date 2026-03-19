@@ -25,7 +25,7 @@ export default function Impact() {
     return (
         <section
             id="impact"
-            className="section-padding bg-card/30 bg-black text-white mt-40">
+            className="section-padding bg-card/30 p-4 bg-black text-white mt-40">
             <div className="max-w-7xl mx-auto" ref={ref}>
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}

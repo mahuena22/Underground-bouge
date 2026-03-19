@@ -11,15 +11,15 @@ export default function About() {
     return (
         <section
             id="apropos"
-            className="section-padding bg-black text-white mt-40">
+            className="section-padding p-4 bg-white text-black ">
             <div className="max-w-7xl mx-auto" ref={ref}>
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={inView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}>
-                    <h2 className="text-3xl md:text-5xl font-extrabold tracking-[-0.03em] text-foreground mb-12">
+                    <h2 className="text-3xl relative md:text-5xl top-10 mb-10 font-extrabold tracking-[-0.03em] text-foreground ">
                         Qui sommes-nous
-                        <span className="text-accent text-[#FF3B3F] ">?</span>
+                        <span className="text-accent text-[#FF3B3F] "> ?</span>
                     </h2>
                 </motion.div>
 
@@ -32,28 +32,30 @@ export default function About() {
                             delay: 0.2,
                             ease: [0.16, 1, 0.3, 1],
                         }}>
-                        <p className="text-muted-foreground leading-relaxed mb-6">
+                        <p className="text-muted-foreground py-1 leading-relaxed mb-6">
                             Créé le{' '}
                             <span className="text-primary text-[#4DA8FF] font-semibold">
                                 30 mai 2017
                             </span>
                             , Underground Bouge est un concept promotionnel
-                            innovant dans lère artistique et musicale nationale
-                            béninoise.
+                            innovant dans l&apos;ère artistique et musicale
+                            nationale béninoise.
                         </p>
                         <p className="text-muted-foreground leading-relaxed mb-6">
-                            Parti dune idée de{' '}
+                            Parti dune idée de Parti d&apos;une idée de{' '}
                             <span className=" text-[#4DA8FF] font-semibold">
                                 Kévin Prince HOUNDALO
                             </span>
-                            , le projet sest donné pour but la promotion de la
-                            jeune génération férue de musique urbaine au Bénin.
+                            , le projet s&apos;est donné pour but la promotion
+                            de la jeune génération férue de musique urbaine au
+                            Bénin.
                         </p>
                         <p className="text-muted-foreground leading-relaxed mb-8">
                             Underground Bouge révèle, suscite et accompagne la
-                            promotion des artistes locaux, valorise leffort
-                            culturel et artistique national, et offre dintenses
-                            moments de détente aux mélomanes.
+                            promotion des artistes locaux, valorise
+                            l&apos;effort culturel et artistique national, et
+                            offre d&apos;intenses moments de détente aux
+                            mélomanes.
                         </p>
 
                         <div className="grid grid-cols-2 gap-4">
@@ -92,14 +94,14 @@ export default function About() {
                             ease: [0.16, 1, 0.3, 1],
                         }}
                         className="relative">
-                        <div className="glass-card overflow-hidden">
+                        <div className="glass-card  overflow-hidden rounded-lg ">
                             <img
-                                src="/images/logo.jpg"
+                                src="/images/header1.png"
                                 alt="Underground Bouge"
-                                className="w-full h-auto object-cover"
+                                className="w-full h-auto -mt-20 object-cover"
                             />
                         </div>
-                        <div className="absolute -bottom-4 -right-4 w-24 h-24 border-2 border-accent/30 rounded-sm" />
+                        <div className="absolute -bottom-4- top-80 -right-1 w-24 h-24 border-2 border-accent/30 rounded-sm" />
                     </motion.div>
                 </div>
             </div>

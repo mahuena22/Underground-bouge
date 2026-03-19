@@ -32,7 +32,9 @@ export default function Activities() {
     const inView = useInView(ref, { once: true, margin: '-100px' })
 
     return (
-        <section id="activites" className="section-padding bg-card/30 mt-40">
+        <section
+            id="activites"
+            className=" section-padding p-4 bg-card/30 mt-40">
             <div className="max-w-7xl mx-auto" ref={ref}>
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}

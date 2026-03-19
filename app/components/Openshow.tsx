@@ -22,8 +22,10 @@ export default function OpenShow() {
     const inView = useInView(ref, { once: true, margin: '-100px' })
 
     return (
-        <section id="openshow" className="section-padding bg-background mt-40">
-            <div className="max-w-7xl mx-auto" ref={ref}>
+        <section
+            id="openshow"
+            className="section-padding bg-white p-4 text-black py-15">
+            <div className="max-w-7xl mx-auto " ref={ref}>
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -31,10 +33,10 @@ export default function OpenShow() {
                     <h2 className="text-3xl md:text-5xl font-extrabold tracking-[-0.03em] text-foreground mb-6">
                         Open <span className="text-blue-500">Show</span>
                     </h2>
-                    <p className="text-gray-500 max-w-2xl mb-16 text-lg">
+                    <p className="text-gray-600 max-w-2xl mb-16 text-lg">
                         Un événement de promotion culturelle urbain, organisé
-                        chaque quinzaine, offrant une scène dexpression aux
-                        artistes.
+                        chaque quinzaine, offrant une scène d&apos;expression
+                        aux artistes.
                     </p>
                 </motion.div>
 
