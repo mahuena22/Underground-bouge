@@ -2,10 +2,8 @@
 
 import { useState, useEffect } from 'react'
 import Loader from './components/Loader'
-
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Bande from './components/Bande'
 import About from './components/About'
 import Activité from './components/Activité'
 import OpenShow from './components/Openshow'
@@ -31,7 +29,6 @@ const Index = () => {
             <div className="min-h-screen bg-black text-white">
                 <Navbar />
                 <Hero />
-                <Bande />
                 <About />
                 <Activité />
                 <OpenShow />

@@ -62,7 +62,7 @@ export default function Hero() {
             />
 
             {/* overlay sombre */}
-            <div className="absolute inset-0 bg-black/70" />
+            <section className="absolute inset-0 bg-black/70" />
 
             {/* Grid overlay */}
             <div className="absolute inset-0 z-1  grid-bg opacity-30" />

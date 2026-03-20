@@ -11,7 +11,7 @@ export default function About() {
     return (
         <section
             id="apropos"
-            className="section-padding  p-4 bg-white text-black ">
+            className="section-padding p-4 bg-white text-black ">
             <div className="max-w-7xl mx-auto" ref={ref}>
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -99,7 +99,7 @@ export default function About() {
                         className="relative">
                         <div className="glass-card  overflow-hidden rounded-lg ">
                             <img
-                                src="/images/header1.png"
+                                src="/images/header.jpeg"
                                 alt="Underground Bouge"
                                 className="w-full h-auto -mt-20 object-cover"
                             />
