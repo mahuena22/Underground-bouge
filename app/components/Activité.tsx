@@ -34,17 +34,17 @@ export default function Activities() {
     return (
         <section
             id="activites"
-            className=" section-padding p-4 bg-card/30 mt-40">
+            className=" section-padding text-white p-4 bg-card/30 mt-40">
             <div className="max-w-7xl mx-auto" ref={ref}>
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={inView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}>
-                    <h2 className="text-3xl md:text-5xl font-extrabold tracking-[-0.03em] text-foreground mb-6">
+                    <h2 className="text-3xl md:text-5xl font-extrabold tracking-[-0.03em] text-white mb-6">
                         Plan de{' '}
                         <span className="text-blue-500">communication</span>
                     </h2>
-                    <p className="text-muted-foreground max-w-2xl mb-16 text-lg">
+                    <p className="text-white max-w-2xl mb-16 text-lg">
                         Un artiste est promu durant 3 jours par quinzaine, avec
                         une stratégie multi-canal complète.
                     </p>
@@ -70,7 +70,7 @@ export default function Activities() {
                             <h3 className="text-lg font-bold text-foreground mb-3 uppercase tracking-tight">
                                 {ch.title}
                             </h3>
-                            <p className="text-muted-foreground text-sm leading-relaxed">
+                            <p className="text-white text-sm leading-relaxed">
                                 {ch.desc}
                             </p>
                         </motion.div>
@@ -88,7 +88,7 @@ export default function Activities() {
                     }}>
                     <div className="flex items-center gap-3 mb-8">
                         <Calendar className="text-blue-500" size={24} />
-                        <h3 className="text-2xl font-bold text-foreground">
+                        <h3 className="text-2xl font-bold text-white">
                             Programme hebdomadaire
                         </h3>
                     </div>
